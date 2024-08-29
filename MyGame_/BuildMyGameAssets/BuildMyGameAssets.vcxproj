@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\MyGame\Content\AssetsToBuild.lua">
+    <CustomBuild Include="..\Content\AssetsToBuild.lua">
       <FileType>Document</FileType>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(OutputDir)AssetBuildExe.exe" "%(Identity)"</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(OutputDir)AssetBuildExe.exe" "%(Identity)"</Command>

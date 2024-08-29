@@ -11,7 +11,7 @@
     </Image>
     <Image Include="Resource Files\eaeGamePad.ico">
       <Filter>Resource Files</Filter>
-    <ProjectGuid>{0420ddd9-d1a5-46bb-94f8-ead43b9c1195}</ProjectGuid>
+      <ProjectGuid>{0420ddd9-d1a5-46bb-94f8-ead43b9c1195}</ProjectGuid>
     </Image>
     <Image Include="Resource Files\vsDefault_large.ico">
       <Filter>Resource Files</Filter>
@@ -21,9 +21,7 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Resource Files\ExampleGame.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
+    <ResourceCompile Include="Resource Files\MyGame.rc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Resource Files\Resource.h">
@@ -32,10 +30,10 @@
     <ClInclude Include="Resource Files\targetver.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="cExampleGame.h" />
+    <ClInclude Include="cMyGame.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cExampleGame.cpp" />
     <ClCompile Include="EntryPoint.cpp" />
+    <ClCompile Include="cMyGame.cpp" />
   </ItemGroup>
 </Project>

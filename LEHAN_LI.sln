@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyGame", "MyGame", "{F6F460C4-812B-4C7D-9628-420743C54D9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyGame", "MyGame_\MyGame\MyGame.vcxproj", "{082A89EF-6CAC-41A7-9C24-E292F113A1C5}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExampleGame", "ExampleGame", "{AC0EBDC3-8723-4A43-9112-DB863C2C3694}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExampleGame", "ExampleGame_\ExampleGame\ExampleGame.vcxproj", "{C4A8A8ED-1817-46FC-97E1-E77CA8057D9E}"
@@ -74,10 +78,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphics", "Engine\Graphics\Graphics.vcxproj", "{C703D65E-AFFE-4A4D-8F9D-268B9C8BD90D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Direct3DExtensions", "External\Direct3DExtensions\Direct3DExtensions.vcxproj", "{1533D854-6A82-462C-88CA-F6A1866F1142}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyGame", "MyGame", "{F6F460C4-812B-4C7D-9628-420743C54D9E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyGame", "MyGame_\MyGame\MyGame.vcxproj", "{082A89EF-6CAC-41A7-9C24-E292F113A1C5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BuildMyGameAssets", "MyGame_\BuildMyGameAssets\BuildMyGameAssets.vcxproj", "{5AFEC297-D7A8-4556-A3A8-C14F4B7B79CA}"
 EndProject

@@ -238,6 +238,18 @@
     <ProjectReference Include="..\..\External\Direct3DExtensions\Direct3DExtensions.vcxproj">
       <Project>{1533d854-6a82-462c-88ca-f6a1866f1142}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\..\External\Lua\LuaCompiler.vcxproj">
+      <Project>{0b19945a-9ca2-4ed3-84d8-0924b5428925}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\External\Lua\LuaExe.vcxproj">
+      <Project>{b38967b9-886d-4e1f-b733-828d1783e2dc}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\External\Lua\LuaLib.vcxproj">
+      <Project>{a506e35d-bb34-468d-82cd-112386be29d1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\External\Mcpp\Mcpp.vcxproj">
+      <Project>{dd1b3bf3-3c86-49f6-abf4-e021ebcdaf80}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\..\External\OpenGlExtensions\OpenGlExtensions.vcxproj">
       <Project>{433f6d20-943a-4d7b-bffe-bc9dfc932e6e}</Project>
     </ProjectReference>

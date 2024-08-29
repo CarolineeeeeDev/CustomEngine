@@ -1,8 +1,8 @@
 Opened log file "eae6320.log"
 Initialized time
-Registered main window class "John-Paul's EAE6320 Example Main Window Class"
+Registered main window class "Lehan Li's EAE6320 Main Window Class"
 The user settings file "settings.ini" doesn't exist. Using default settings instead.
-Created main window "John-Paul's EAE6320 Example Game -- OpenGL -- Debug"
+Created main window "Lehan Li's EAE6320 Game -- Direct3D -- Debug"
 Set main window resolution to 512 x 512
 Failed to load shader from file data/Shaders/Vertex/standard.shader: Windows failed to open the file "data/Shaders/Vertex/standard.shader" for reading: 系统找不到指定的路径。
 Application initialization failed!
