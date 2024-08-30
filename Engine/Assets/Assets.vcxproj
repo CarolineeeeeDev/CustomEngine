@@ -40,6 +40,9 @@
     <ProjectReference Include="..\Results\Results.vcxproj">
       <Project>{5003f315-b5d5-48ab-ba3f-1cb0dec8c213}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\Windows\Windows.vcxproj">
+      <Project>{6ff846d1-2377-4601-b2f6-83e31748cb16}</Project>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Empty.cpp" />
