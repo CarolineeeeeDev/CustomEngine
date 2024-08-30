@@ -43,20 +43,11 @@
     <ProjectReference Include="..\..\Engine\Asserts\Asserts.vcxproj">
       <Project>{464a6551-fca9-4027-bd9e-2b26914782ab}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\Engine\Graphics\Graphics.vcxproj">
-      <Project>{c703d65e-affe-4a4d-8f9d-268b9c8bd90d}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Engine\Math\Math.vcxproj">
-      <Project>{999c3d5f-7f79-4bd7-ae21-92eeed0c5962}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Engine\Physics\Physics.vcxproj">
-      <Project>{30e6bb9f-138d-4b44-9733-869263f7bad5}</Project>
+    <ProjectReference Include="..\..\Engine\Results\Results.vcxproj">
+      <Project>{5003f315-b5d5-48ab-ba3f-1cb0dec8c213}</Project>
     </ProjectReference>
     <ProjectReference Include="..\..\Engine\UserInput\UserInput.vcxproj">
       <Project>{193bb096-cd2c-48e8-8a28-99ecc2d019ad}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\BuildExampleGameAssets\BuildExampleGameAssets.vcxproj">
-      <Project>{dfb3a233-13a2-4ef1-9872-9cbb331e560a}</Project>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">

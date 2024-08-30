@@ -40,6 +40,9 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Tools\AssetBuildExe\AssetBuildExe.vcxproj">
+      <Project>{5fe0ead5-3429-4525-a533-8cf75c85d4f1}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\..\Tools\ShaderBuilder\ShaderBuilder.vcxproj">
       <Project>{08efe31c-ca8a-4271-b255-6f92bd2ada4b}</Project>
     </ProjectReference>
