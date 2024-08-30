@@ -187,6 +187,11 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ALWAYS_RUN</Outputs>
     </CustomBuild>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Tools\ShaderBuilder\ShaderBuilder.vcxproj">
+      <Project>{08efe31c-ca8a-4271-b255-6f92bd2ada4b}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

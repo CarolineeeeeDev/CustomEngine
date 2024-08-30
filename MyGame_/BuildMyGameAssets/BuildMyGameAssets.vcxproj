@@ -39,6 +39,11 @@
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Tools\ShaderBuilder\ShaderBuilder.vcxproj">
+      <Project>{08efe31c-ca8a-4271-b255-6f92bd2ada4b}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{5afec297-d7a8-4556-a3a8-c14f4b7b79ca}</ProjectGuid>

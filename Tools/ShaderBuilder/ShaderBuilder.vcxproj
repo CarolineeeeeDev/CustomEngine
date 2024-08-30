@@ -50,6 +50,9 @@
     <ProjectReference Include="..\..\Engine\Windows\Windows.vcxproj">
       <Project>{6ff846d1-2377-4601-b2f6-83e31748cb16}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\..\External\Direct3DExtensions\Direct3DExtensions.vcxproj">
+      <Project>{1533d854-6a82-462c-88ca-f6a1866f1142}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\..\External\Mcpp\Mcpp.vcxproj">
       <Project>{dd1b3bf3-3c86-49f6-abf4-e021ebcdaf80}</Project>
     </ProjectReference>
