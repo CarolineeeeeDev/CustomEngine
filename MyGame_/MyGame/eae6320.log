@@ -6,6 +6,7 @@ Created main window "Lehan Li's EAE6320 Game -- Direct3D -- Debug"
 Set main window resolution to 512 x 512
 Failed to load shader from file data/Shaders/Vertex/standard.shader: Windows failed to open the file "data/Shaders/Vertex/standard.shader" for reading: 系统找不到指定的路径。
 Application initialization failed!
+MyGame has been successfully cleaned up!
 Destroyed main window
 Unregistered main window class
 Closing log file
