@@ -57,6 +57,7 @@ namespace eae6320
 					vertexData[5].x = 1.0f;
 					vertexData[5].y = 1.0f;
 					vertexData[5].z = 0.0f;
+
 				}
 				constexpr auto bufferSize = sizeof(vertexData[0]) * vertexCount;
 				EAE6320_ASSERT(bufferSize <= std::numeric_limits<decltype(D3D11_BUFFER_DESC::ByteWidth)>::max());
